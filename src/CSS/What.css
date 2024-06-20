@@ -1,0 +1,32 @@
+.col-lg-4.wht svg {
+  width: 60px;
+  height: 65px;
+  color: burlywood;
+}
+h2.we {
+  font-size: 125px;
+  font-weight: 500;
+  color: white;
+}
+.col-lg-4.wht1 svg {
+  width: 60px;
+  height: 65px;
+  color: aqua;
+}
+.col-lg-4.wht2 svg {
+  width: 60px;
+  height: 65px;
+  color: burlywood;
+}
+
+h3.ew {
+  font-size: 26px;
+}
+.row.gh {
+  padding: 120px 0px 120px 0px;
+}
+.col-g-6.bn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,51 @@
+.kl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ghf {
+  border-bottom: 1px solid;
+  width: 300px;
+  padding: 10px;
+}
+
+.asd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px 0px 0px 0px;
+  border-bottom: 2px solid;
+}
+.jo svg {
+  margin-left: 10px;
+}
+.wer {
+  padding: 20px 0px 0px 0px;
+}
+.section.df {
+  background-image: linear-gradient(
+    to right,
+    #cb55d6,
+    #b38bd1,
+    #17121a,
+    #c042ff
+  );
+  padding: 60px 20px 60px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .asd {
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+  }
+}
+@media screen and (max-width: 992px) {
+  .kl {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .asd {
+    padding: 20px 0px 0px 0px;
+  }
+}
