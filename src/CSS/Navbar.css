@@ -138,3 +138,7 @@
 a.nav__link svg {
   margin-left: 10px;
 }
+header.header {
+  background: #9535c6;
+  margin-top: -16px;
+}

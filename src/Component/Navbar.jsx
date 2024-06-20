@@ -16,8 +16,8 @@ const Navbar = () => {
     }
   };
   return (
-    <header className="header container">
-      <nav className="nav">
+    <header className="header">
+      <nav className="nav container-xxl">
         <NavLink to="/" className="nav__logo">
           Buzzthrough
         </NavLink>

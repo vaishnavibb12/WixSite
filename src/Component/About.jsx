@@ -3,10 +3,13 @@ import img1 from "../assets/GettyImages-645381791.webp";
 import img2 from "../assets/GettyImages-816101994.webp";
 import img3 from "../assets/GettyImages-941303834.webp";
 import "../CSS/About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  AOS.init();
   return (
-    <div className="section container">
+    <div className="section container" data-aos="fade-up">
       <div className="row">
         <div className="col-lg-6 nm">
           <img src={img3} alt="" className="q" />

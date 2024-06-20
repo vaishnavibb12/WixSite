@@ -1,12 +1,14 @@
 import React from "react";
 import img3 from "../assets/GettyImages-941303834.webp";
 import "../CSS/Product.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Product() {
+  AOS.init();
   return (
     <>
-      {" "}
-      <div className="container">
+      <div className="section container" data-aos="fade-down-left">
         <h2
           style={{
             textAlign: "center",

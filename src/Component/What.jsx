@@ -1,11 +1,14 @@
 import React from "react";
 import "../CSS/What.css";
 import { PiGreaterThanBold } from "react-icons/pi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function What() {
+  AOS.init();
   return (
     <>
-      <div className="section container">
+      <div className="section container" data-aos="flip-left">
         <div className="row">
           <div className="col-lg-12">
             <h2
