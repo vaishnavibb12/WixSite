@@ -12,7 +12,7 @@ function Footer() {
           <div className="col-lg-4">
             <h1 style={{ color: "white" }}>
               Stay in <br />
-              the Know
+              the Knows
             </h1>
           </div>
           <div className="col-lg-8">
