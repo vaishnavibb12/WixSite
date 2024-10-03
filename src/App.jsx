@@ -3,24 +3,30 @@ import Navbar from "./Component/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "./CSS/Navbar.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  BrowserRouter as Router,
+  Routes,
+} from "react-router-dom";
 import "../src/index.css";
-import Slider from "./Component/Slider";
-import About from "./Component/About";
-import Product from "./Component/Product";
-import What from "./Component/What";
+
 import Footer from "./Component/Footer";
+
+import AboutUs from "./Pages/AboutUs";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
-      <Slider />
-      <About />
-      <Product />
-      <What />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path={"/aboutus"} element={<AboutUs />} />
+      </Routes>
+
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
